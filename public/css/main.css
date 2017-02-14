@@ -1,0 +1,39 @@
+body {
+    font-family: sans-serif;
+    font-weight: lighter;
+    margin: auto;
+    height: 500px;
+    width: 600px;
+    max-width: 100%;
+    text-align: center;
+    padding-top: 100px;
+
+}
+
+
+#counter {
+    width: 120px;
+    height: 120px;
+    text-align: center;
+    color: lightsteelblue;
+}
+
+h1{
+    font-size: 72px;
+
+}
+
+button{
+    width: 120px;
+    height: 120px;
+    font-size: 50px;
+    background-color: white;
+    color: steelblue;
+    border: none;
+
+
+}
+
+.blocks{
+    display: inline-block;
+}

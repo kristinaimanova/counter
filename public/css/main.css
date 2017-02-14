@@ -1,3 +1,7 @@
+/**{
+
+    border: 4px solid black;
+}*/
 body {
     font-family: sans-serif;
     font-weight: lighter;
@@ -7,15 +11,18 @@ body {
     max-width: 100%;
     text-align: center;
     padding-top: 100px;
+    background-color: lightgrey;
 
 }
 
 
 #counter {
     width: 120px;
-    height: 120px;
+    height: 100px;
     text-align: center;
-    color: lightsteelblue;
+    color: slategrey;
+    padding-top: 20px;
+
 }
 
 h1{
@@ -26,14 +33,23 @@ h1{
 button{
     width: 120px;
     height: 120px;
-    font-size: 50px;
-    background-color: white;
-    color: steelblue;
+    font-size: 60px;
+    border-radius: 90px;
+    opacity: 10%;
     border: none;
+    background-color: lightcyan;
+    color: slategrey;
+    padding-bottom: 20px;
+    text-align: center;
 
 
 }
-
+#reset{
+    display: block;
+    margin: auto;
+    font-size: 40px;
+    margin-top: -20px;
+}
 .blocks{
     display: inline-block;
 }

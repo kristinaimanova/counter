@@ -42,7 +42,9 @@ button{
     padding-bottom: 20px;
     text-align: center;
 
-
+}
+label{
+    display: inline-block;
 }
 #reset{
     display: block;
@@ -52,4 +54,17 @@ button{
 }
 .blocks{
     display: inline-block;
+}
+
+input {
+        display: inline;
+        margin-top: 25px;
+        font-size: 15px;
+        border-radius: 90px;
+        opacity: 10%;
+        border: none;
+        background-color: lightcyan;
+        color: slategrey;
+        padding-bottom: 20px;
+        text-align: center;
 }
